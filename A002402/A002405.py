@@ -5,6 +5,7 @@ from polynomial import Polynomial as P
 
 def L(n):
     """
+        This is A003418(n+1).
         >>> L(5)
         60
         >>> L(4)
@@ -21,6 +22,7 @@ def L(n):
 
 def Alef_star(n):
     """
+        This is A002405.
         >>> Alef_star(6)
         -4315
         >>> Alef_star(3)
