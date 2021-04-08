@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "oeis_data"
+version = "0.1.0"
+description = "Accessible form for the OEIS sequence data."
+authors = ["Jack Grahl <jack.grahl@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+datasette = "^0.56"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.3"
+hypothesis = "^6.8.9"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
