@@ -15,3 +15,6 @@ hypothesis = "^6.8.9"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+create_db = "oeis_data.create_db:run"
