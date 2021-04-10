@@ -7,6 +7,7 @@ authors = ["Jack Grahl <jack.grahl@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.7"
 datasette = "^0.56"
+sqlite-utils = "^3.6"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.3"
